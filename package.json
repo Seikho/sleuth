@@ -1,0 +1,33 @@
+{
+  "name": "sleuth",
+  "version": "0.1.0",
+  "description": "word sleuth engine",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "tsc"
+  },
+  "typings": "./index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seikho/sleuth.git"
+  },
+  "keywords": [
+    "word",
+    "sleuth",
+    "fill",
+    "random",
+    "engine"
+  ],
+  "author": "Carl Winkler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seikho/sleuth/issues"
+  },
+  "homepage": "https://github.com/seikho/sleuth#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "typescript": "^1.7.5"
+  }
+}
